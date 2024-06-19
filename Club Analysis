@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Questionnaires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .link-box {
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .link-box:hover {
+            transform: translateY(-5px);
+        }
+        .club-guidelines {
+            background-color: #B4C6E7;
+        }
+        .club-guidelines:hover {
+            background-color: #9BAED0;
+        }
+        .club-management {
+            background-color: #F8CBAD;
+        }
+        .club-management:hover {
+            background-color: #E8B892;
+        }
+        .future-floorball {
+            background-color: #E698D2;
+        }
+        .future-floorball:hover {
+            background-color: #D37BB8;
+        }
+        .floorball-management {
+            background-color: #FFE699;
+        }
+        .floorball-management:hover {
+            background-color: #E6C275;
+        }
+        .spirit-floorball {
+            background-color: #E2EFDA;
+        }
+        .spirit-floorball:hover {
+            background-color: #C8DFB6;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Questionnaires</h1>
+        <div class="links">
+            <div class="link-box club-guidelines"><a href="#">Club guidelines & strategy & statutes</a></div>
+            <div class="link-box club-management"><a href="#">Club Management</a></div>
+            <div class="link-box future-floorball"><a href="#">Future of Floorball</a></div>
+            <div class="link-box floorball-management"><a href="#">Floorball Management</a></div>
+            <div class="link-box spirit-floorball"><a href="#">Spirit of Floorball</a></div>
+        </div>
+    </div>
+</body>
+</html>
